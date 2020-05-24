@@ -20,7 +20,7 @@ database430.connect((err) => {
 });
 
 app430.get('/', (req, res) => {
-    res.send('This is Assignment 1 part c'); 
+    res.send('This is Assignment 2'); 
 });
 
 app430.get('/jobs430',(req,res) => {
