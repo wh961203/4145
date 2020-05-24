@@ -3,5 +3,5 @@ WORKDIR /a2a
 COPY package.json .
 RUN npm install
 COPY . .
-CMD node partb.js
+CMD node partc.js
 EXPOSE 2430
