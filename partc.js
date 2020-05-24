@@ -5,11 +5,11 @@ app430.use(express430.json());
 const mysql430 = require('mysql');
 
 const database430 = mysql430.createConnection({
-    host : 'localhost',
-    user : 'root',
-    password : 'ASg19961203.',
+    host : 'db.cs.dal.ca',
+    user : 'haow',
+    password : 'B00692430',
     port : '3306',
-    database : 'a1'
+    database : 'haow'
 });
 
 database430.connect((err) => { 
